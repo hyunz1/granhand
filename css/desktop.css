@@ -1,0 +1,247 @@
+@media all and (min-width: 750px){
+    .m{display: none;}
+    .tab{display: none;}
+    .pc{display: block;}
+
+#wrapper{
+    padding: unset;
+}
+.wrap{
+    max-width: 1092px;
+    margin: 0 auto;
+}
+.wrap header{
+}
+.wrap header h1 img{
+    width: 130px;
+}
+.wrap header .btn-cart{display: none;}
+.wrap header .btn-menu{display: none;}
+.wrap header nav .btn-close{display: none;}
+.wrap header nav{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-items: center;
+    overflow: unset;
+    flex-direction: unset;
+    background-color: unset;
+    padding: 0;
+    background-color: unset;
+    color: #000;
+}
+.wrap header nav .gnb{
+    display: flex;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+.wrap header nav .gnb .box{
+    display: flex;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.wrap header nav .gnb .box .tit{
+    margin-bottom: 0px;
+}
+.wrap header nav .gnb .box .tit img{display: none;}
+.wrap header nav .gnb .box .sub div{display: none;}
+.wrap header nav .util{
+    font-size: 12px;
+    font-weight: normal;
+    color: #000;
+    margin-right: 20px;
+}
+.wrap header nav .util .box:nth-child(2){
+    margin-right: 10px;
+}
+.wrap header nav .util .box:nth-child(3){
+    margin-right: 0px;
+}
+.wrap header nav .util .box:last-child{
+    display: block;
+}
+.wrap .main .banner{
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.wrap .main .banner .pic{
+    grid-column: 3 / span 4;
+    padding: 20px;
+    background-color: #FFFAF2;
+}
+.wrap .main .banner .pic img{
+    width: 100%;
+}
+.wrap .main .banner .txt{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    font-size: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-right: 1px solid #999;
+}
+.wrap .main .banner .txt div{
+
+}
+.wrap .best .con{
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+.wrap .best .con .box1{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    border-bottom: 0;
+    border-right: 1px solid #999;
+}
+.wrap .best .con .box1 a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.wrap .best .con .box1 .txt{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.wrap .best .con .box2{
+    border-bottom: 1px solid #999;
+    background-color: #fbeedc;
+}
+.wrap .best .con .box3{
+    border-bottom: 1px solid #999;
+}
+.wrap .best .con .box4{
+    border-right: 1px solid #999;
+}
+.wrap .best .con .box5{
+    background-color: #fbeedc;
+}
+.wrap .best .con div .pic img{
+    height: 110px;
+}
+.wrap .best .con div:first-child .pic img{
+    height: unset;
+}
+.wrap .best .con div .txt{
+    width: 100%;
+}
+.wrap .best .con div .txt .txt1{
+    font-size: 12px;
+}
+.wrap .best .con div .txt .txtk{
+    font-size: 10px;
+}
+.wrap .best .con div .txt .txt2{
+    font-size: 10px;
+}
+.wrap .best .con .box4{display: block;}
+.wrap .best .con .box5{display: block;}
+
+.wrap .shop .con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid #999;
+}
+.wrap .shop .con .box1{
+    border-bottom: 0;
+}
+.wrap .shop .con .box2{
+    border-bottom: none;
+    border-right: 1px solid #999;
+}
+.wrap .shop .con div .txt .txt1{
+    font-size: 12px;
+}
+.wrap .shop .con div .txt .txtk{
+    font-size: 10px;
+}
+.wrap .shop .con div .txt .txt2{
+    font-size: 10px;
+}
+.wrap .shop .into{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.wrap .shop .into .pic{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    border-right: 1px solid #999;
+}
+.wrap .shop .into .txt{
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #fbeedc;
+}
+.wrap .shop .into .txt .txt1{
+    font-size: 13px;
+}
+.wrap .shop .into .txt .txt2{
+    font-size: 13px;
+}
+.wrap .shop .into .txt .txt3{
+    font-size: 11px;
+}
+.wrap .journal .con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 1px solid #999;
+}
+.wrap .journal .con .box1{
+    grid-column: 1;
+    border-bottom: 0;
+    border-right: 1px solid #999;
+}
+.wrap .journal .con .box1 .pic{
+    padding: 0;
+}
+.wrap .journal .con .box1 .txt a h3{
+    font-size: 12px;
+}
+.wrap .journal .con .box1 .txt a p{
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+.wrap .journal .con .box2{
+    display: block;
+    padding: 10px;
+    border-right: 1px solid #999;
+}
+.wrap .journal .con .box3{
+    padding: 10px;
+    display: block;
+}
+.wrap .journal .con div .nam{
+    font-size: 10px;
+    width: 30%;
+}
+.wrap .journal .con div .txt a h3{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.wrap .journal .con div .txt a p{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #8f8f8f;
+}
+.wrap .journal .con div .pic img{
+    width: 100%;
+}
+.wrap .suport .con{
+    display: flex;
+    font-size: 10px;
+}
+.wrap .footer .con{
+    font-size: 10px;
+}
+
+}
