@@ -91,6 +91,7 @@ header{
 .wrap header nav .gnb .box .sub{
     color: #6C6262;
     font-size: 16px;
+    display: none;
 }
 .wrap header nav .gnb .box .sub .box{
     margin-bottom: 10px;
