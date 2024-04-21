@@ -34,12 +34,13 @@
     display: flex;
     position: absolute;
     left: 0;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .wrap header nav .gnb .box{
     display: flex;
-    font-size: 14px;
+    font-size: 12px;
     margin-right: 10px;
+    font-weight: normal;
 }
 .wrap header nav .gnb .box .tit{
     margin-bottom: 0px;
@@ -47,10 +48,10 @@
 .wrap header nav .gnb .box .tit img{display: none;}
 .wrap header nav .gnb .box .sub div{display: none;}
 .wrap header nav .util{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: normal;
     color: #000;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .wrap header nav .util .box:nth-child(2){
     margin-right: 10px;
@@ -84,8 +85,14 @@
     justify-content: flex-end;
     border-right: 1px solid #999;
 }
-.wrap .main .banner .txt div{
-
+.wrap .best .top h2{
+    font-size: 16px;
+}
+.wrap .best .top .more{
+    font-size: 10px;
+}
+.wrap .main .banner .txt .box:nth-child(2) {
+    font-size: 14px;
 }
 .wrap .best .con{
     grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -142,7 +149,12 @@
 }
 .wrap .best .con .box4{display: block;}
 .wrap .best .con .box5{display: block;}
-
+.wrap .shop .top h2{
+    font-size: 16px;
+}
+.wrap .shop .top .more{
+    font-size: 10px;
+}
 .wrap .shop .con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -191,6 +203,12 @@
 .wrap .shop .into .txt .txt3{
     font-size: 11px;
 }
+.wrap .journal .top h2{
+    font-size: 16px;
+}
+.wrap .journal .top .more{
+    font-size: 10px;
+}
 .wrap .journal .con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -209,7 +227,6 @@
 }
 .wrap .journal .con .box1 .txt a p{
     font-size: 12px;
-    margin-bottom: 50px;
 }
 .wrap .journal .con .box2{
     display: block;
@@ -230,11 +247,14 @@
 }
 .wrap .journal .con div .txt a p{
     font-size: 12px;
-    margin-bottom: 20px;
     color: #8f8f8f;
+    margin-bottom: 20px;
 }
 .wrap .journal .con div .pic img{
     width: 100%;
+}
+.wrap .suport h2{
+    font-size: 16px;
 }
 .wrap .suport .con{
     display: flex;
