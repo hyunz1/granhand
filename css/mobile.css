@@ -353,7 +353,7 @@ header{
 }
 .wrap .footer{
     font-size: 10px;
-    color: #a29f9f;
+    color: #8f8f8f;
 }
 .wrap .footer .top{
     display: flex;
@@ -370,17 +370,11 @@ header{
 .wrap .footer .con{
     padding: 10px;
     font-size: 12px;
+    color: #8f8f8f;
 }
-.wrap .footer .bottom .txt1{}
+.wrap .footer .bottom{
+    color: #8f8f8f;
+}
 .wrap .footer .bottom .txt2{
     display: flex;
-}
-.wrap .footer .bottom .txt2 .box{
-    margin-right: 10px;
-}
-.wrap .footer .bottom .txt3{
-    display: flex;
-}
-.wrap .footer .bottom .txt3 .box{
-    margin-right: 10px;
 }
