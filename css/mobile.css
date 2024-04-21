@@ -343,7 +343,7 @@ header{
 }
 .wrap .suport .con{
     display: flex;
-    font-size: 12px;
+    font-size: 10px;
 }
 .wrap .suport .con .box{
     margin-right: 5px;
